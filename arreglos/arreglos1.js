@@ -21,6 +21,7 @@ console.log(`Valor de variable tam:${tam}`);
 for (let i = 0; i < tam ; i++) {
     vector[i]=Math.round(Math.random()*100);    
 }
+//let num= Math.round(Math.random()*100);    
 console.log(vector);
 console.log(`Tamaño del vector:${vector.length}`);
 
@@ -32,9 +33,7 @@ console.log(`Tamaño del vector:${vector.length}`);
         console.log(`${vector[i]} es impar`)
     } 
  }
-
  let cuadrados=[];
-
  for (let i = 0; i < vector.length; i++) {
     cuadrados[i]=Math.pow(vector[i],2);
  }
