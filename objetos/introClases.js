@@ -39,6 +39,7 @@ console.log(objeto1.nombre);
 // suma(objeto1, "sirve?");
 
 
+
 class Numeros{
     constructor(vector){
         this._vector=vector;
