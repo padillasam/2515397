@@ -12,7 +12,7 @@ async function talk(x) {
     const words = await saySomething(x);
     console.log(words);
     } catch (error) {
-        console.log('mi errorrrrrrr',error)
+        console.log('errorrrrrrr',error)
     }
     
     }    
